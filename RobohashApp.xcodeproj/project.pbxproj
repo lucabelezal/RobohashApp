@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E37770423E9AE54009E16E0 /* RobohashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37770323E9AE54009E16E0 /* RobohashService.swift */; };
+		6E37770623E9AE5E009E16E0 /* ImageLoadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37770523E9AE5E009E16E0 /* ImageLoadOperation.swift */; };
+		6E74B2D423E72A630099A28F /* RobohashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2D323E72A630099A28F /* RobohashListViewController.swift */; };
+		6E74B2D623E72A6B0099A28F /* RobohashListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2D523E72A6B0099A28F /* RobohashListViewModel.swift */; };
+		6E74B2D823E72A700099A28F /* RobohashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2D723E72A700099A28F /* RobohashListView.swift */; };
+		6E74B32F23E730AA0099A28F /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2DA23E730AA0099A28F /* UIImageView+Cache.swift */; };
+		6E74B33023E730AA0099A28F /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2DB23E730AA0099A28F /* ViewCodable.swift */; };
+		6E74B33123E730AA0099A28F /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2DD23E730AA0099A28F /* TableSection.swift */; };
+		6E74B33223E730AA0099A28F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2DE23E730AA0099A28F /* DataSource.swift */; };
+		6E74B33323E730AA0099A28F /* ViewModelOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B2DF23E730AA0099A28F /* ViewModelOwner.swift */; };
+		6E74B36123E730AA0099A28F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B31E23E730AA0099A28F /* TableViewCell.swift */; };
+		6E74B36223E730AA0099A28F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B31F23E730AA0099A28F /* String+Extension.swift */; };
+		6E74B36323E730AA0099A28F /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32023E730AA0099A28F /* AlertDisplayer.swift */; };
+		6E74B36423E730AA0099A28F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32223E730AA0099A28F /* CardView.swift */; };
+		6E74B36523E730AA0099A28F /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32423E730AA0099A28F /* UICollectionView+Reusable.swift */; };
+		6E74B36623E730AA0099A28F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32523E730AA0099A28F /* Reusable.swift */; };
+		6E74B36723E730AA0099A28F /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32623E730AA0099A28F /* UITableView+Reusable.swift */; };
+		6E74B36823E730AA0099A28F /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32723E730AA0099A28F /* NibLoadable.swift */; };
+		6E74B36923E730AA0099A28F /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B32823E730AA0099A28F /* NibOwnerLoadable.swift */; };
+		6E74B3AF23E731500099A28F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B39F23E7314F0099A28F /* LayoutConstraintItem.swift */; };
+		6E74B3B023E731500099A28F /* LayoutConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A023E7314F0099A28F /* LayoutConstraintMaker.swift */; };
+		6E74B3B123E731500099A28F /* LayoutConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A123E7314F0099A28F /* LayoutConstraintMakerExtendable.swift */; };
+		6E74B3B223E731500099A28F /* LayoutConstraintMakerSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A223E7314F0099A28F /* LayoutConstraintMakerSupportable.swift */; };
+		6E74B3B323E731500099A28F /* LayoutViewConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A323E7314F0099A28F /* LayoutViewConstraint.swift */; };
+		6E74B3B423E731500099A28F /* LayoutViewConstraintSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A423E7314F0099A28F /* LayoutViewConstraintSafeArea.swift */; };
+		6E74B3B523E731500099A28F /* LayoutConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A623E7314F0099A28F /* LayoutConstraintMakerRelatable.swift */; };
+		6E74B3B623E731500099A28F /* LayoutConstraintItemable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A723E7314F0099A28F /* LayoutConstraintItemable.swift */; };
+		6E74B3B723E731500099A28F /* LayoutConstraintSafeAreaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A823E7314F0099A28F /* LayoutConstraintSafeAreaItem.swift */; };
+		6E74B3B823E731500099A28F /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3A923E7314F0099A28F /* LayoutView.swift */; };
+		6E74B3B923E731500099A28F /* LayoutConstraintType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3AB23E7314F0099A28F /* LayoutConstraintType.swift */; };
+		6E74B3BA23E731500099A28F /* LayoutEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3AC23E7314F0099A28F /* LayoutEdgeInsets.swift */; };
+		6E74B3BB23E731500099A28F /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3AD23E7314F0099A28F /* Typealiases.swift */; };
+		6E74B3BC23E731500099A28F /* LayoutPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3AE23E7314F0099A28F /* LayoutPriortizable.swift */; };
+		6E74B3C023E733720099A28F /* RobohashCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3BF23E733720099A28F /* RobohashCellView.swift */; };
+		6E74B3C223E7337A0099A28F /* RobohashCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3C123E7337A0099A28F /* RobohashCellViewModel.swift */; };
+		6E74B3C423E7339D0099A28F /* Robohash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B3C323E7339D0099A28F /* Robohash.swift */; };
+		6E99267523E727D700D7683A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99267423E727D700D7683A /* AppDelegate.swift */; };
+		6E99267723E727D700D7683A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99267623E727D700D7683A /* SceneDelegate.swift */; };
+		6E99267E23E727DB00D7683A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E99267D23E727DB00D7683A /* Assets.xcassets */; };
+		6E99268123E727DB00D7683A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E99267F23E727DB00D7683A /* LaunchScreen.storyboard */; };
+		6EB4251A24008B8600F81CAA /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4251924008B8600F81CAA /* ImageService.swift */; };
+		6EB4252F2400939E00F81CAA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4251D2400939D00F81CAA /* ParameterEncoding.swift */; };
+		6EB425302400939E00F81CAA /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4251E2400939D00F81CAA /* URLParameterEncoding.swift */; };
+		6EB425312400939E00F81CAA /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4251F2400939D00F81CAA /* JSONParameterEncoder.swift */; };
+		6EB425322400939E00F81CAA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425212400939D00F81CAA /* NetworkManager.swift */; };
+		6EB425332400939E00F81CAA /* ConstantApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425222400939D00F81CAA /* ConstantApi.swift */; };
+		6EB425342400939E00F81CAA /* EnvironmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425242400939D00F81CAA /* EnvironmentType.swift */; };
+		6EB425352400939E00F81CAA /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425252400939D00F81CAA /* HTTPTask.swift */; };
+		6EB425362400939E00F81CAA /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425262400939D00F81CAA /* NetworkResponse.swift */; };
+		6EB425372400939E00F81CAA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425272400939D00F81CAA /* Result.swift */; };
+		6EB425382400939E00F81CAA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425282400939D00F81CAA /* HTTPMethod.swift */; };
+		6EB425392400939E00F81CAA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB425292400939D00F81CAA /* Router.swift */; };
+		6EB4253A2400939E00F81CAA /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4252A2400939D00F81CAA /* NetworkLogger.swift */; };
+		6EB4253B2400939E00F81CAA /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4252B2400939D00F81CAA /* EndpointType.swift */; };
+		6EB4253C2400939E00F81CAA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4252C2400939D00F81CAA /* NetworkError.swift */; };
+		6EB425402400940800F81CAA /* RobohashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4253F2400940800F81CAA /* RobohashRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E37770323E9AE54009E16E0 /* RobohashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashService.swift; sourceTree = "<group>"; };
+		6E37770523E9AE5E009E16E0 /* ImageLoadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadOperation.swift; sourceTree = "<group>"; };
+		6E74B2D323E72A630099A28F /* RobohashListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashListViewController.swift; sourceTree = "<group>"; };
+		6E74B2D523E72A6B0099A28F /* RobohashListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashListViewModel.swift; sourceTree = "<group>"; };
+		6E74B2D723E72A700099A28F /* RobohashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashListView.swift; sourceTree = "<group>"; };
+		6E74B2DA23E730AA0099A28F /* UIImageView+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		6E74B2DB23E730AA0099A28F /* ViewCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		6E74B2DD23E730AA0099A28F /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
+		6E74B2DE23E730AA0099A28F /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		6E74B2DF23E730AA0099A28F /* ViewModelOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelOwner.swift; sourceTree = "<group>"; };
+		6E74B31E23E730AA0099A28F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6E74B31F23E730AA0099A28F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6E74B32023E730AA0099A28F /* AlertDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		6E74B32223E730AA0099A28F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6E74B32423E730AA0099A28F /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		6E74B32523E730AA0099A28F /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		6E74B32623E730AA0099A28F /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		6E74B32723E730AA0099A28F /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		6E74B32823E730AA0099A28F /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		6E74B39F23E7314F0099A28F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		6E74B3A023E7314F0099A28F /* LayoutConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintMaker.swift; sourceTree = "<group>"; };
+		6E74B3A123E7314F0099A28F /* LayoutConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		6E74B3A223E7314F0099A28F /* LayoutConstraintMakerSupportable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintMakerSupportable.swift; sourceTree = "<group>"; };
+		6E74B3A323E7314F0099A28F /* LayoutViewConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewConstraint.swift; sourceTree = "<group>"; };
+		6E74B3A423E7314F0099A28F /* LayoutViewConstraintSafeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewConstraintSafeArea.swift; sourceTree = "<group>"; };
+		6E74B3A623E7314F0099A28F /* LayoutConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		6E74B3A723E7314F0099A28F /* LayoutConstraintItemable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItemable.swift; sourceTree = "<group>"; };
+		6E74B3A823E7314F0099A28F /* LayoutConstraintSafeAreaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintSafeAreaItem.swift; sourceTree = "<group>"; };
+		6E74B3A923E7314F0099A28F /* LayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		6E74B3AB23E7314F0099A28F /* LayoutConstraintType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintType.swift; sourceTree = "<group>"; };
+		6E74B3AC23E7314F0099A28F /* LayoutEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEdgeInsets.swift; sourceTree = "<group>"; };
+		6E74B3AD23E7314F0099A28F /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		6E74B3AE23E7314F0099A28F /* LayoutPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPriortizable.swift; sourceTree = "<group>"; };
+		6E74B3BF23E733720099A28F /* RobohashCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashCellView.swift; sourceTree = "<group>"; };
+		6E74B3C123E7337A0099A28F /* RobohashCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashCellViewModel.swift; sourceTree = "<group>"; };
+		6E74B3C323E7339D0099A28F /* Robohash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robohash.swift; sourceTree = "<group>"; };
+		6E99267123E727D700D7683A /* RobohashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobohashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E99267423E727D700D7683A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E99267623E727D700D7683A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E99267D23E727DB00D7683A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E99268023E727DB00D7683A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E99268223E727DB00D7683A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB4251924008B8600F81CAA /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		6EB4251D2400939D00F81CAA /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		6EB4251E2400939D00F81CAA /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		6EB4251F2400939D00F81CAA /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		6EB425212400939D00F81CAA /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6EB425222400939D00F81CAA /* ConstantApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantApi.swift; sourceTree = "<group>"; };
+		6EB425242400939D00F81CAA /* EnvironmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentType.swift; sourceTree = "<group>"; };
+		6EB425252400939D00F81CAA /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		6EB425262400939D00F81CAA /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		6EB425272400939D00F81CAA /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		6EB425282400939D00F81CAA /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6EB425292400939D00F81CAA /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6EB4252A2400939D00F81CAA /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		6EB4252B2400939D00F81CAA /* EndpointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		6EB4252C2400939D00F81CAA /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		6EB4253F2400940800F81CAA /* RobohashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobohashRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E99266E23E727D700D7683A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E74B2CD23E729A20099A28F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E99267D23E727DB00D7683A /* Assets.xcassets */,
+				6E99267F23E727DB00D7683A /* LaunchScreen.storyboard */,
+				6E99268223E727DB00D7683A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E74B2CE23E729EE0099A28F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B2CF23E72A030099A28F /* List */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		6E74B2CF23E72A030099A28F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3BE23E7335F0099A28F /* Cell */,
+				6E74B2D323E72A630099A28F /* RobohashListViewController.swift */,
+				6E74B2D523E72A6B0099A28F /* RobohashListViewModel.swift */,
+				6E74B2D723E72A700099A28F /* RobohashListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6E74B2D023E72A120099A28F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3C323E7339D0099A28F /* Robohash.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E74B2D123E72A210099A28F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4252D2400939D00F81CAA /* Router */,
+				6E37770323E9AE54009E16E0 /* RobohashService.swift */,
+				6E37770523E9AE5E009E16E0 /* ImageLoadOperation.swift */,
+				6EB4251924008B8600F81CAA /* ImageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6E74B2D923E730AA0099A28F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B39E23E7314F0099A28F /* LayoutKit */,
+				6E74B2DC23E730AA0099A28F /* TableFactory */,
+				6E74B32123E730AA0099A28F /* Views */,
+				6E74B32323E730AA0099A28F /* Reusable */,
+				6E74B2DA23E730AA0099A28F /* UIImageView+Cache.swift */,
+				6E74B2DB23E730AA0099A28F /* ViewCodable.swift */,
+				6E74B2DF23E730AA0099A28F /* ViewModelOwner.swift */,
+				6E74B31E23E730AA0099A28F /* TableViewCell.swift */,
+				6E74B31F23E730AA0099A28F /* String+Extension.swift */,
+				6E74B32023E730AA0099A28F /* AlertDisplayer.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6E74B2DC23E730AA0099A28F /* TableFactory */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B2DD23E730AA0099A28F /* TableSection.swift */,
+				6E74B2DE23E730AA0099A28F /* DataSource.swift */,
+			);
+			path = TableFactory;
+			sourceTree = "<group>";
+		};
+		6E74B32123E730AA0099A28F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B32223E730AA0099A28F /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E74B32323E730AA0099A28F /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B32423E730AA0099A28F /* UICollectionView+Reusable.swift */,
+				6E74B32523E730AA0099A28F /* Reusable.swift */,
+				6E74B32623E730AA0099A28F /* UITableView+Reusable.swift */,
+				6E74B32723E730AA0099A28F /* NibLoadable.swift */,
+				6E74B32823E730AA0099A28F /* NibOwnerLoadable.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		6E74B39E23E7314F0099A28F /* LayoutKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3AA23E7314F0099A28F /* Helper */,
+				6E74B3A523E7314F0099A28F /* Protocol */,
+				6E74B39F23E7314F0099A28F /* LayoutConstraintItem.swift */,
+				6E74B3A023E7314F0099A28F /* LayoutConstraintMaker.swift */,
+				6E74B3A123E7314F0099A28F /* LayoutConstraintMakerExtendable.swift */,
+				6E74B3A223E7314F0099A28F /* LayoutConstraintMakerSupportable.swift */,
+				6E74B3A323E7314F0099A28F /* LayoutViewConstraint.swift */,
+				6E74B3A423E7314F0099A28F /* LayoutViewConstraintSafeArea.swift */,
+				6E74B3A823E7314F0099A28F /* LayoutConstraintSafeAreaItem.swift */,
+				6E74B3A923E7314F0099A28F /* LayoutView.swift */,
+			);
+			path = LayoutKit;
+			sourceTree = "<group>";
+		};
+		6E74B3A523E7314F0099A28F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3A623E7314F0099A28F /* LayoutConstraintMakerRelatable.swift */,
+				6E74B3A723E7314F0099A28F /* LayoutConstraintItemable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6E74B3AA23E7314F0099A28F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3AB23E7314F0099A28F /* LayoutConstraintType.swift */,
+				6E74B3AC23E7314F0099A28F /* LayoutEdgeInsets.swift */,
+				6E74B3AD23E7314F0099A28F /* Typealiases.swift */,
+				6E74B3AE23E7314F0099A28F /* LayoutPriortizable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6E74B3BE23E7335F0099A28F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E74B3BF23E733720099A28F /* RobohashCellView.swift */,
+				6E74B3C123E7337A0099A28F /* RobohashCellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6E99266823E727D600D7683A = {
+			isa = PBXGroup;
+			children = (
+				6E99267323E727D700D7683A /* RobohashApp */,
+				6E99267223E727D700D7683A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E99267223E727D700D7683A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E99267123E727D700D7683A /* RobohashApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E99267323E727D700D7683A /* RobohashApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E99267423E727D700D7683A /* AppDelegate.swift */,
+				6E99267623E727D700D7683A /* SceneDelegate.swift */,
+				6EB4253E240093C500F81CAA /* Layers */,
+				6E74B2D923E730AA0099A28F /* Helper */,
+				6E74B2D023E72A120099A28F /* Model */,
+				6E74B2D123E72A210099A28F /* Service */,
+				6E74B2CE23E729EE0099A28F /* Feature */,
+				6E74B2CD23E729A20099A28F /* Resources */,
+			);
+			path = RobohashApp;
+			sourceTree = "<group>";
+		};
+		6EB4251B2400939D00F81CAA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4251C2400939D00F81CAA /* Encoding */,
+				6EB425202400939D00F81CAA /* Manager */,
+				6EB425232400939D00F81CAA /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6EB4251C2400939D00F81CAA /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4251D2400939D00F81CAA /* ParameterEncoding.swift */,
+				6EB4251E2400939D00F81CAA /* URLParameterEncoding.swift */,
+				6EB4251F2400939D00F81CAA /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		6EB425202400939D00F81CAA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6EB425212400939D00F81CAA /* NetworkManager.swift */,
+				6EB425222400939D00F81CAA /* ConstantApi.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6EB425232400939D00F81CAA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6EB425242400939D00F81CAA /* EnvironmentType.swift */,
+				6EB425252400939D00F81CAA /* HTTPTask.swift */,
+				6EB425262400939D00F81CAA /* NetworkResponse.swift */,
+				6EB425272400939D00F81CAA /* Result.swift */,
+				6EB425282400939D00F81CAA /* HTTPMethod.swift */,
+				6EB425292400939D00F81CAA /* Router.swift */,
+				6EB4252A2400939D00F81CAA /* NetworkLogger.swift */,
+				6EB4252B2400939D00F81CAA /* EndpointType.swift */,
+				6EB4252C2400939D00F81CAA /* NetworkError.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6EB4252D2400939D00F81CAA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4253F2400940800F81CAA /* RobohashRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6EB4253E240093C500F81CAA /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4251B2400939D00F81CAA /* Networking */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E99267023E727D700D7683A /* RobohashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E99268523E727DB00D7683A /* Build configuration list for PBXNativeTarget "RobohashApp" */;
+			buildPhases = (
+				6E74B3BD23E731C40099A28F /* Lint */,
+				6E99266D23E727D700D7683A /* Sources */,
+				6E99266E23E727D700D7683A /* Frameworks */,
+				6E99266F23E727D700D7683A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobohashApp;
+			productName = RobohashApp;
+			productReference = 6E99267123E727D700D7683A /* RobohashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E99266923E727D600D7683A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lucas Nascimento";
+				TargetAttributes = {
+					6E99267023E727D700D7683A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E99266C23E727D600D7683A /* Build configuration list for PBXProject "RobohashApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E99266823E727D600D7683A;
+			productRefGroup = 6E99267223E727D700D7683A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E99267023E727D700D7683A /* RobohashApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E99266F23E727D700D7683A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E99268123E727DB00D7683A /* LaunchScreen.storyboard in Resources */,
+				6E99267E23E727DB00D7683A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E74B3BD23E731C40099A28F /* Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Lint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E99266D23E727D700D7683A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E74B3B423E731500099A28F /* LayoutViewConstraintSafeArea.swift in Sources */,
+				6E74B2D823E72A700099A28F /* RobohashListView.swift in Sources */,
+				6EB425392400939E00F81CAA /* Router.swift in Sources */,
+				6EB4252F2400939E00F81CAA /* ParameterEncoding.swift in Sources */,
+				6E74B36923E730AA0099A28F /* NibOwnerLoadable.swift in Sources */,
+				6EB425302400939E00F81CAA /* URLParameterEncoding.swift in Sources */,
+				6E74B3B823E731500099A28F /* LayoutView.swift in Sources */,
+				6EB425372400939E00F81CAA /* Result.swift in Sources */,
+				6EB4253B2400939E00F81CAA /* EndpointType.swift in Sources */,
+				6E74B36123E730AA0099A28F /* TableViewCell.swift in Sources */,
+				6EB425362400939E00F81CAA /* NetworkResponse.swift in Sources */,
+				6E74B3B323E731500099A28F /* LayoutViewConstraint.swift in Sources */,
+				6E74B3B223E731500099A28F /* LayoutConstraintMakerSupportable.swift in Sources */,
+				6E74B3B523E731500099A28F /* LayoutConstraintMakerRelatable.swift in Sources */,
+				6EB4251A24008B8600F81CAA /* ImageService.swift in Sources */,
+				6E74B3C223E7337A0099A28F /* RobohashCellViewModel.swift in Sources */,
+				6EB4253A2400939E00F81CAA /* NetworkLogger.swift in Sources */,
+				6EB425352400939E00F81CAA /* HTTPTask.swift in Sources */,
+				6E74B3B023E731500099A28F /* LayoutConstraintMaker.swift in Sources */,
+				6E74B36723E730AA0099A28F /* UITableView+Reusable.swift in Sources */,
+				6E74B2D623E72A6B0099A28F /* RobohashListViewModel.swift in Sources */,
+				6E74B33123E730AA0099A28F /* TableSection.swift in Sources */,
+				6E74B33223E730AA0099A28F /* DataSource.swift in Sources */,
+				6E74B3AF23E731500099A28F /* LayoutConstraintItem.swift in Sources */,
+				6E74B36423E730AA0099A28F /* CardView.swift in Sources */,
+				6E74B33323E730AA0099A28F /* ViewModelOwner.swift in Sources */,
+				6E37770423E9AE54009E16E0 /* RobohashService.swift in Sources */,
+				6E74B3C023E733720099A28F /* RobohashCellView.swift in Sources */,
+				6E37770623E9AE5E009E16E0 /* ImageLoadOperation.swift in Sources */,
+				6E74B3BB23E731500099A28F /* Typealiases.swift in Sources */,
+				6EB425332400939E00F81CAA /* ConstantApi.swift in Sources */,
+				6E74B3BC23E731500099A28F /* LayoutPriortizable.swift in Sources */,
+				6E74B3B923E731500099A28F /* LayoutConstraintType.swift in Sources */,
+				6EB425382400939E00F81CAA /* HTTPMethod.swift in Sources */,
+				6EB425342400939E00F81CAA /* EnvironmentType.swift in Sources */,
+				6EB425312400939E00F81CAA /* JSONParameterEncoder.swift in Sources */,
+				6E74B36623E730AA0099A28F /* Reusable.swift in Sources */,
+				6E99267523E727D700D7683A /* AppDelegate.swift in Sources */,
+				6E99267723E727D700D7683A /* SceneDelegate.swift in Sources */,
+				6E74B36323E730AA0099A28F /* AlertDisplayer.swift in Sources */,
+				6E74B36823E730AA0099A28F /* NibLoadable.swift in Sources */,
+				6E74B33023E730AA0099A28F /* ViewCodable.swift in Sources */,
+				6EB4253C2400939E00F81CAA /* NetworkError.swift in Sources */,
+				6E74B3BA23E731500099A28F /* LayoutEdgeInsets.swift in Sources */,
+				6E74B2D423E72A630099A28F /* RobohashListViewController.swift in Sources */,
+				6E74B32F23E730AA0099A28F /* UIImageView+Cache.swift in Sources */,
+				6E74B3B723E731500099A28F /* LayoutConstraintSafeAreaItem.swift in Sources */,
+				6E74B3C423E7339D0099A28F /* Robohash.swift in Sources */,
+				6E74B36523E730AA0099A28F /* UICollectionView+Reusable.swift in Sources */,
+				6E74B3B623E731500099A28F /* LayoutConstraintItemable.swift in Sources */,
+				6E74B36223E730AA0099A28F /* String+Extension.swift in Sources */,
+				6EB425402400940800F81CAA /* RobohashRouter.swift in Sources */,
+				6EB425322400939E00F81CAA /* NetworkManager.swift in Sources */,
+				6E74B3B123E731500099A28F /* LayoutConstraintMakerExtendable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E99267F23E727DB00D7683A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E99268023E727DB00D7683A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E99268323E727DB00D7683A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E99268423E727DB00D7683A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E99268623E727DB00D7683A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobohashApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teste.RobohashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E99268723E727DB00D7683A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobohashApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teste.RobohashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E99266C23E727D600D7683A /* Build configuration list for PBXProject "RobohashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E99268323E727DB00D7683A /* Debug */,
+				6E99268423E727DB00D7683A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E99268523E727DB00D7683A /* Build configuration list for PBXNativeTarget "RobohashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E99268623E727DB00D7683A /* Debug */,
+				6E99268723E727DB00D7683A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E99266923E727D600D7683A /* Project object */;
+}
